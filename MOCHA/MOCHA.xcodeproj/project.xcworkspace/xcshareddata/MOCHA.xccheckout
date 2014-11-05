@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>99C42089-4EC2-4F7D-AFF2-A304D72B4D71</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MOCHA</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>731BD2E51C6EE09152BA8C3F7687EEA2A07EEBA0</key>
+		<string>https://github.com/OralMaster/Mocha.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MOCHA/MOCHA.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>731BD2E51C6EE09152BA8C3F7687EEA2A07EEBA0</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/OralMaster/Mocha.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>731BD2E51C6EE09152BA8C3F7687EEA2A07EEBA0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>731BD2E51C6EE09152BA8C3F7687EEA2A07EEBA0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Mocha</string>
+		</dict>
+	</array>
+</dict>
+</plist>
