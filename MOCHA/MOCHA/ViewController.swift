@@ -26,9 +26,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    //Click Mocha to hide
     @IBAction func mochabutton(sender: UIButton) {
-        Timeout.hidden = false
-        ExitVote.hidden = false
+        Timeout.hidden = !Timeout.hidden
+        ExitVote.hidden = !ExitVote.hidden
         
     }
 

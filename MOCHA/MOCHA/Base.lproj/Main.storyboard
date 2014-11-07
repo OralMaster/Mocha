@@ -5,6 +5,26 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="nz6-kn-ZKx">
+            <objects>
+                <viewController id="2DY-NN-pBg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="czR-aO-GVZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="B2c-H0-6N7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RJ1-8n-SJF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iun-1R-eHU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="691" y="288"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="MOCHA" customModuleProvider="target" sceneMemberID="viewController">
@@ -26,14 +46,8 @@
                                     <action selector="mochabutton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uj3-Qu-sF2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZH-iQ-p2O">
-                                <rect key="frame" x="68" y="340" width="56" height="30"/>
-                                <state key="normal" title="Timeout">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5T-nV-ocr">
-                                <rect key="frame" x="206" y="340" width="56" height="30"/>
+                                <rect key="frame" x="209" y="302" width="56" height="30"/>
                                 <state key="normal" title="ExitVote">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -41,6 +55,13 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="test_image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ec2-vp-TgY">
                                 <rect key="frame" x="40" y="114" width="240" height="128"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZH-iQ-p2O">
+                                <rect key="frame" x="46" y="294" width="84" height="46"/>
+                                <state key="normal" title="Timeout" image="test_image.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="test_image.jpg"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
