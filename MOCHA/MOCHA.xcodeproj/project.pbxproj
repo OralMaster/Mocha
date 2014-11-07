@@ -13,6 +13,7 @@
 		EB51A58F1A09E0000095D878 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB51A58E1A09E0000095D878 /* Images.xcassets */; };
 		EB51A5921A09E0000095D878 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB51A5901A09E0000095D878 /* LaunchScreen.xib */; };
 		EB51A59E1A09E0000095D878 /* MOCHATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51A59D1A09E0000095D878 /* MOCHATests.swift */; };
+		F74380901A0C70A200041174 /* test_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F743808F1A0C70A200041174 /* test_image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		EB51A5971A09E0000095D878 /* MOCHATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOCHATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB51A59C1A09E0000095D878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB51A59D1A09E0000095D878 /* MOCHATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOCHATests.swift; sourceTree = "<group>"; };
+		F743808F1A0C70A200041174 /* test_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				EB51A5871A09E0000095D878 /* AppDelegate.swift */,
 				EB51A5891A09E0000095D878 /* ViewController.swift */,
 				EB51A58B1A09E0000095D878 /* Main.storyboard */,
+				F743808F1A0C70A200041174 /* test_image.jpg */,
 				EB51A58E1A09E0000095D878 /* Images.xcassets */,
 				EB51A5901A09E0000095D878 /* LaunchScreen.xib */,
 				EB51A5851A09E0000095D878 /* Supporting Files */,
@@ -195,6 +198,7 @@
 				EB51A58D1A09E0000095D878 /* Main.storyboard in Resources */,
 				EB51A5921A09E0000095D878 /* LaunchScreen.xib in Resources */,
 				EB51A58F1A09E0000095D878 /* Images.xcassets in Resources */,
+				F74380901A0C70A200041174 /* test_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				EB51A5A31A09E0000095D878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB51A5A41A09E0000095D878 /* Build configuration list for PBXNativeTarget "MOCHATests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				EB51A5A61A09E0000095D878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

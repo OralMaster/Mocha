@@ -28,6 +28,8 @@ class ViewController: UIViewController {
 
     @IBAction func mochabutton(sender: UIButton) {
         Timeout.hidden = false
+        ExitVote.hidden = false
+        
     }
 
 
