@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var MochaButton: UIButton!
     @IBOutlet weak var Timeout: UIButton!
     @IBOutlet weak var ExitVote: UIButton!
+    @IBOutlet weak var Creater_room: UIButton!
+    @IBOutlet weak var Enter_room: UIButton!
     
     override func viewDidLoad() {
         Timeout.hidden = true
