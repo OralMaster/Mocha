@@ -88,10 +88,13 @@
                                     <segue destination="vXZ-lx-hvc" kind="modal" modalTransitionStyle="flipHorizontal" id="vhG-Di-N4U"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHQ-68-NcI">
-                                <rect key="frame" x="119" y="161" width="83" height="30"/>
-                                <state key="normal" title="Creat Room">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lobby.png" translatesAutoresizingMaskIntoConstraints="NO" id="8a9-D7-sOE">
+                                <rect key="frame" x="69" y="133" width="193" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHQ-68-NcI">
+                                <rect key="frame" x="33" y="306" width="265" height="26"/>
+                                <state key="normal" image="Create a Room.png">
+                                    <color key="titleShadowColor" red="0.83840356691919193" green="0.52964152124088559" blue="0.18302298164137554" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="vXZ-lx-hvc" kind="modal" modalTransitionStyle="flipHorizontal" id="lG2-fT-DP3"/>
@@ -111,6 +114,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Create a Room.png" width="167" height="28"/>
+        <image name="Lobby.png" width="165" height="113"/>
         <image name="test_image.jpg" width="500" height="332"/>
     </resources>
     <inferredMetricsTieBreakers>

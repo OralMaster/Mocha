@@ -13,6 +13,8 @@
 		EB51A58F1A09E0000095D878 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB51A58E1A09E0000095D878 /* Images.xcassets */; };
 		EB51A5921A09E0000095D878 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB51A5901A09E0000095D878 /* LaunchScreen.xib */; };
 		EB51A59E1A09E0000095D878 /* MOCHATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51A59D1A09E0000095D878 /* MOCHATests.swift */; };
+		F715017C1A12CEE100A78354 /* Lobby.png in Resources */ = {isa = PBXBuildFile; fileRef = F715017B1A12CEE100A78354 /* Lobby.png */; };
+		F715017E1A12CF9400A78354 /* Create a Room.png in Resources */ = {isa = PBXBuildFile; fileRef = F715017D1A12CF9400A78354 /* Create a Room.png */; };
 		F74380901A0C70A200041174 /* test_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F743808F1A0C70A200041174 /* test_image.jpg */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		EB51A5971A09E0000095D878 /* MOCHATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOCHATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB51A59C1A09E0000095D878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB51A59D1A09E0000095D878 /* MOCHATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOCHATests.swift; sourceTree = "<group>"; };
+		F715017B1A12CEE100A78354 /* Lobby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lobby.png; sourceTree = "<group>"; };
+		F715017D1A12CF9400A78354 /* Create a Room.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Create a Room.png"; sourceTree = "<group>"; };
 		F743808F1A0C70A200041174 /* test_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,7 +86,6 @@
 				EB51A5871A09E0000095D878 /* AppDelegate.swift */,
 				EB51A5891A09E0000095D878 /* ViewController.swift */,
 				EB51A58B1A09E0000095D878 /* Main.storyboard */,
-				F743808F1A0C70A200041174 /* test_image.jpg */,
 				EB51A58E1A09E0000095D878 /* Images.xcassets */,
 				EB51A5901A09E0000095D878 /* LaunchScreen.xib */,
 				EB51A5851A09E0000095D878 /* Supporting Files */,
@@ -94,6 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				EB51A5861A09E0000095D878 /* Info.plist */,
+				F715017D1A12CF9400A78354 /* Create a Room.png */,
+				F743808F1A0C70A200041174 /* test_image.jpg */,
+				F715017B1A12CEE100A78354 /* Lobby.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -195,8 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F715017E1A12CF9400A78354 /* Create a Room.png in Resources */,
 				EB51A58D1A09E0000095D878 /* Main.storyboard in Resources */,
 				EB51A5921A09E0000095D878 /* LaunchScreen.xib in Resources */,
+				F715017C1A12CEE100A78354 /* Lobby.png in Resources */,
 				EB51A58F1A09E0000095D878 /* Images.xcassets in Resources */,
 				F74380901A0C70A200041174 /* test_image.jpg in Resources */,
 			);
