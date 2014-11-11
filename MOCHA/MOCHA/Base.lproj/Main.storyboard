@@ -16,37 +16,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBC-uf-82n">
-                                <rect key="frame" x="132" y="437" width="47" height="30"/>
-                                <state key="normal" title="Mocha">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="MochaButton:" destination="vXZ-lx-hvc" eventType="touchDragOutside" id="NGF-uY-iJr"/>
-                                    <action selector="mochabutton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uj3-Qu-sF2"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5T-nV-ocr">
-                                <rect key="frame" x="209" y="302" width="56" height="30"/>
+                                <rect key="frame" x="195" y="345" width="70" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="ExitVote">
+                                    <color key="titleColor" red="0.12528827749999999" green="0.26888909560000002" blue="0.81001420449999995" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="LTh-aB-pjN" kind="modal" modalTransitionStyle="flipHorizontal" id="Uxc-ZK-08e"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="test_image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ec2-vp-TgY">
-                                <rect key="frame" x="40" y="114" width="240" height="128"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZH-iQ-p2O">
-                                <rect key="frame" x="46" y="294" width="84" height="46"/>
-                                <state key="normal" title="Timeout" image="test_image.jpg">
+                                <rect key="frame" x="45" y="337" width="84" height="46"/>
+                                <state key="normal" title="Timeout">
+                                    <color key="titleColor" red="0.12528827746582458" green="0.26888909561991731" blue="0.81001420454545459" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted" backgroundImage="test_image.jpg"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBC-uf-82n">
+                                <rect key="frame" x="110" y="391" width="101" height="75"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                                <state key="normal" title="Mocha">
+                                    <color key="titleColor" red="0.12528827749999999" green="0.26888909560000002" blue="0.81001420449999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="MochaButton:" destination="vXZ-lx-hvc" eventType="touchDragOutside" id="NGF-uY-iJr"/>
+                                    <action selector="mochabutton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uj3-Qu-sF2"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="                                           Room 084" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3Dy-Rr-9dE">
+                                <rect key="frame" x="25" y="83" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.12528827749999999" green="0.26888909560000002" blue="0.81001420449999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="&quot;When people talk, listen completely. Most people never listen&quot;-Ernest Hemingway" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wWs-YQ-fHn">
+                                <rect key="frame" x="33" y="162" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.57076625631313127" green="0.36123814696644979" blue="0.12560141520692764" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.92372001589999997" blue="0.83913411599999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
